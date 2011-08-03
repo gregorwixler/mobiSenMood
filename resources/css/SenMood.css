@@ -1,0 +1,18 @@
+.selectorBox {
+	margin: 2px;
+	padding: 2px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	box-shadow: 7px;
+
+}
+.bigBlack {
+	font-size: large;
+	font-style: normal;
+	font-weight: bold;
+}
+.smallGrey {
+	font-size: small;
+	font-style: italic;
+	color: #808080;
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html manifest="app.manifest">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<link rel="apple-touch-icon" href="resources/images/SenMood_icon.png"/>
+    <link rel="apple-touch-startup-image" href="resources/images/phone_startup.png">     
+	
+	<title>mobiSenMood</title>
+    
+  	<link rel="stylesheet" href="resources/css/sencha-touch.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="resources/css/SenMood.css" type="text/css" media="screen"/>
+</head>
+<body>
+     
+ 	<script type="text/javascript" src="lib/sencha-touch.js"></script>
+    
+    <div id="sencha-app">
+        <script type="text/javascript" src="app/app.js"></script>
+        
+        <!-- Place your view files here -->
+        <div id="sencha-views">
+			<script type="text/javascript" src="app/views/Viewport.js"></script>
+			<script type="text/javascript" src="app/views/login.js"></script>
+            <script type="text/javascript" src="app/views/Main.js"></script>
+			
+			<script src="app/views/my_activities.js" type="text/javascript"></script>
+			<script src="app/views/my_courses.js" type="text/javascript"></script>
+			<script src="app/views/my_calendar.js" type="text/javascript"></script>
+			
+			<script src="app/views/aboutcard.js" type="text/javascript"></script>
+			<script src="app/views/changeusercard.js" type="text/javascript"></script>
+			<script src="app/views/morecard.js" type="text/javascript"></script>
+        </div>
+        
+        <!-- Place your model files here -->
+        <div id="sencha-models">
+			<script src="app/models/mSenMood.js" type="text/javascript"></script>
+        </div>
+		
+		<!-- Place your store files here -->
+        <div id="sencha-stores">
+			<script src="app/stores/morestore.js" type="text/javascript"></script>
+			<script src="app/stores/sSenMood.js" type="text/javascript"></script>
+        </div>
+        
+        <!-- Place your controller files here -->
+        <div id="sencha-controllers">
+            <script type="text/javascript" src="app/controllers/cSenMood.js"></script>
+            
+        </div>
+    </div>
+</body>
+</html>
